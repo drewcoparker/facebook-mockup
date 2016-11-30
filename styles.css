@@ -1,3 +1,8 @@
+html {
+  background-color: #E9EBEE;
+  font-family: helvetica;
+}
+
 img {
   max-width: 100%;
 }
@@ -59,7 +64,8 @@ img {
   width: 24px;
   background-image: url('fb_sprite.png');
   background-size: 26px 905px;
-  /*float: left;*/
+  margin-left: 10px;
+  float: left;
 }
 
 
@@ -73,4 +79,87 @@ img {
 
 .notifications {
   background-position: 0 -238px;
+}
+
+.lock {
+  background-position: 0 -859px;
+  height: 16px;
+  /*This will override the social-icon margin*/
+  margin-left: 10px;
+}
+
+.down-arrow {
+  background-position: 0 -825px;
+  height: 16px;
+}
+
+.spacer {
+  line-height: 24px;
+  margin: 0 10px;
+}
+
+#cover-photo-wrapper {
+  max-width: 900px;
+  margin: auto;
+  width: 100%;
+}
+
+#big-photo {
+  max-height: 350px;
+  overflow: hidden;
+}
+
+#big-photo img {
+  width: 100%;
+}
+
+#big-avatar {
+  float: left;
+  width: 160px;
+  height: 160px;
+  border: solid #fff 4px;
+  overflow: hidden;
+  position: absolute;
+  top: 250px;
+  left: 270px;
+  outline: solid gray 1px;
+}
+
+#cover-avatar-name {
+  position: absolute;
+  top: 344px;
+  left: 450px;
+  color: white;
+  font-size: 24px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#menu-avatar-name {
+  float: left;
+}
+
+#cover-buttons {
+  float: right;
+  position: relative;
+  /*margin-bottom: 170px;*/
+
+}
+
+#cover-menu {
+  float: left;
+  padding-left: 208px;
+  padding-right: 278px;
+  background-color: #fff;
+  border-left: solid gray 1px;
+  border-right: solid gray 1px;
+  border-bottom: solid gray 1px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.cover-menu-item {
+  float: left;
+  list-style-type: none;
+  padding: 20px;
+  color: #3b5998;
+  font-size: 14px;
 }
