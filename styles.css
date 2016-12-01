@@ -1,6 +1,6 @@
 html {
   background-color: #E9EBEE;
-  font-family: helvetica;
+  font-family: arial;
 }
 
 img {
@@ -132,7 +132,7 @@ img {
 
 #cover-avatar-name {
   position: absolute;
-  bottom: 30px;
+  bottom: 18px;
   left: 205px;
   color: white;
   font-size: 24px;
@@ -144,14 +144,14 @@ img {
 #cover-buttons {
   float: right;
   position: absolute;
-  bottom: 30px;
+  bottom: 18px;
   left: 692px;
 }
 
 #cover-menu {
   float: left;
-  padding-left: 208px;
-  padding-right: 278px;
+  padding-left: 209px;
+  padding-right: 277px;
   background-color: #fff;
   border-left: solid gray 1px;
   border-right: solid gray 1px;
@@ -164,5 +164,14 @@ img {
   list-style-type: none;
   padding: 20px;
   color: #3b5998;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.first {
+  border-left: solid #3b5998 .5px;
+  border-right: solid #3b5998 .5px;
+}
+
+.not-first {
+  border-right: solid #3b5998 .5px;
 }
