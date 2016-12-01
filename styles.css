@@ -58,6 +58,10 @@ img {
   width: 24px;
 }
 
+#menu-avatar-name {
+  float: left;
+}
+
 /*A catch all for the 3 social icon divs*/
 .social-icon {
   height: 24px;
@@ -102,6 +106,7 @@ img {
   max-width: 900px;
   margin: auto;
   width: 100%;
+  position: relative;
 }
 
 #big-photo {
@@ -120,8 +125,8 @@ img {
   border: solid #fff 4px;
   overflow: hidden;
   position: absolute;
-  top: 250px;
-  left: 270px;
+  top: 200px;
+  left: 20px;
   outline: solid gray 1px;
 }
 
@@ -134,15 +139,12 @@ img {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#menu-avatar-name {
-  float: left;
-}
+
 
 #cover-buttons {
   float: right;
-  position: relative;
+  /*position: relative;*/
   /*margin-bottom: 170px;*/
-
 }
 
 #cover-menu {
