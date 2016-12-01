@@ -132,8 +132,8 @@ img {
 
 #cover-avatar-name {
   position: absolute;
-  top: 344px;
-  left: 450px;
+  bottom: 30px;
+  left: 205px;
   color: white;
   font-size: 24px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -143,8 +143,9 @@ img {
 
 #cover-buttons {
   float: right;
-  /*position: relative;*/
-  /*margin-bottom: 170px;*/
+  position: absolute;
+  bottom: 30px;
+  left: 692px;
 }
 
 #cover-menu {
